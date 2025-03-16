@@ -5,8 +5,8 @@
 ## 🎯 เนื้อหาที่สอน
 
 - 📝 บทนำ (Introduction)
-- 🔢 ข้อมูลและตัวแปร (Data) 
-- 🔀 การเลือกทำ (Selection if-elif-else)
+- 🔢 ข้อมูลและตัวแปร (Data)
+- 🔀 การเลือกทำ (Selection if-elif-else) 
 - 🔄 การวนซ้ำ (Repetition While and For)
 - 📜 สตริง (String)
 - 🎯 ฟังก์ชัน (Functions)
@@ -24,17 +24,13 @@
 ## 🛠 เทคโนโลยีที่ใช้
 
 - HTML5
-- CSS3 
-- JavaScript
+- CSS3
+- JavaScript 
 - Template: [Stellar by HTML5 UP](https://html5up.net/stellar)
 
 ## 👨‍🏫 ผู้จัดทำ
 
 - **กายณภัทร สุวรรณโชติ** - [Facebook](https://www.facebook.com/Kainapxt)
-
-## 📝 สิทธิ์การใช้งาน
-
-โครงการนี้ใช้สิทธิ์การใช้งานภายใต้ CCA 3.0 - ดูรายละเอียดได้ที่ [LICENSE.txt](LICENSE.txt)
 
 ## 🙏 ขอบคุณ
 
