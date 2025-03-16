@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List and Tuples</title>
+    <link rel="stylesheet" href="assets/css/main.css" />
+	<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+</head>
+<body class="is-preload">
+
+    <!-- Wrapper -->
+        <div id="wrapper">
+
+            <!-- Header -->
+                <header id="header">
+
+                    <h1>List and Tuples</h1>
+                
+                </header>
+
+            <!-- Main -->
+                <div id="main">
+
+                    <!-- Content -->
+                        <section id="content" class="main">
+                            <h2><b>Lists</b></h2>
+                            <p><span class="tab"></span>A storage of information by the same variable for the access by number sequences.</p>
+                            <p><span class="tab"></span>A list is an object that contains multiple data items. Lists are mutable, which means that their contents can be changed during a program's execution. Lists are dynamic data structures, meaning that items may be added to them or removed from them. You can use indexing, slicing, and various methods to work with lists in a program.</p>
+                            <p><span class="tab"></span>List : an object that contains multiple data items
+                            <br><span class="tab"></span><span class="tab"></span>- Element: An item in a list
+                            <br><span class="tab"></span><span class="tab"></span>- Format: list = [item1, item2, etc.]
+                            <br><span class="tab"></span><span class="tab"></span>- Can hold items of different types
+                            <br><span class="tab"></span>print function can be used to display an entire list
+                            <br><span class="tab"></span>list() function can convert certain types of objects to lists
+                            </p>
+                            
+                            <h2><b>List Methods and Useful Built-in Functions</b></h2>
+                            <h3><b>LISTS OPERATOR</b></h3>
+                            <p><span class="tab"></span><i><u>Repetition operator</u></i>: makes multiple copies of a list and joins them together
+                            <br><span class="tab"></span><span class="tab"></span>- The * symbol is a repetition operator when applied to a sequence and an integer
+                            <br><span class="tab"></span><span class="tab"></span><span class="tab"></span>- Sequence is left operand, number is right
+                            <br><span class="tab"></span><span class="tab"></span>- General format: <i><u>list * n</u></i>
+                            <br><span class="tab"></span>You can iterate over a list using a for loop
+                            <br><span class="tab"></span><span class="tab"></span>- Format: <i><u>for x in list </u></i>:
+                            </p>
+                            <h3 style="text-align: center;">Example Program LISTTEST.PY</h3>
+                            <div style="text-align: center;">
+                                <image src="images/Dictionary and Set/img61.png" alt=""></image>
+                            </div>
+                            <h3 style="text-align: center;">Example Program BARISTA_PAY.PY</h3>
+                            <div style="text-align: center;">
+                                <image src="images/Dictionary and Set/img62.png" alt=""></image>
+                            </div>
+                            <p><span class="tab"></span>An <i><u>IndexError</u></i> exception is raised if an invalid index is used
+                            <br><span class="tab"></span><i><u>len</u></i> function: returns the length of a sequence such as a list
+                            <br><span class="tab"></span><span class="tab"></span>- Example: <i><u>size = len(my_list)</u></i>
+                            <br><span class="tab"></span><span class="tab"></span>- Returns the number of elements in the list, <i><u>so the index of last element is len(list)-1</u></i>
+                            <br><span class="tab"></span><span class="tab"></span>- Can be used to prevent an <i><u>IndexError</u></i> exception when iterating over a list with a loop
+                            </p>
+                            
+                            <h3><b>LIST METHODS</b></h3>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <th>Method</th>
+                                        <th>Description</th>
+                                    </tr>
+                                    <tr>
+                                        <td>append(item)</td>
+                                        <td>Adds an element at the end of the list</td>
+                                    </tr>
+                                    <tr>
+                                        <td>index(item)</td>
+                                        <td>Returns the index of the first element with the specified value</td>
+                                    </tr>
+                                    <tr>
+                                        <td>insert(index, item)</td>
+                                        <td>Adds an element at the specified position</td>
+                                    </tr>
+                                    <tr>
+                                        <td>sort()</td>
+                                        <td>Sorts the list</td>
+                                    </tr>
+                                    <tr>
+                                        <td>remove(item)</td>
+                                        <td>Removes the first item with the specified value</td>
+                                    </tr>
+                                    <tr>
+                                        <td>reverse()</td>
+                                        <td>Reverses the order of the list</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            
+
+                            <h2><b>Two-Dimensional Lists</b></h2>
+                            <h3><b>LISTS OPERATOR</b></h3>
+                            <p><span class="tab"></span>Two-dimensional list: a list that contains other lists as its elements
+                            <br><span class="tab"></span><span class="tab"></span>- Also known as nested list
+                            <br><span class="tab"></span><span class="tab"></span>- Common to think of two-dimensional lists as having rows and columns
+                            <br><span class="tab"></span><span class="tab"></span>- Useful for working with multiple sets of data
+                            <br><span class="tab"></span>To process data in a two-dimensional list need to use two indexes
+                            <br><span class="tab"></span>Typically use nested loops to process
+                            </p>
+                            <h3 style="text-align: center;">Example Program TWO-DIMENSIONAL_LISTS.PY</h3>
+                            <div style="text-align: center;">
+                                <image src="images/Dictionary and Set/img65.png" alt=""></image>
+                            </div>
+                            <h2><b>Tuples</b></h2>
+                            <p><span class="tab"></span>Tuples stores multiple groups of data values in a list order with the same variable, therefore the Tuple is
+                                similar to the List but the main terms of Tuples are different from Lists. Some important characteristics can be
+                                compared as shown below.</p>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <th>List</th>
+                                        <th>Tuple</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Define members by []</td>
+                                        <td>Define members by ()</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Member values can be edited or replaced</td>
+                                        <td>Member values are fixed and cannot be edited</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Member values can be deleted</td>
+                                        <td>Members cannot be removed</td>
+                                    </tr>
+                                    <tr>
+                                        <td>The sequence or order of members can be changed</td>
+                                        <td>The member sequence or order is fixed and can't
+                                            change</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Often used in cases where there are a large number of
+                                            members</td>
+                                        <td>It is commonly used in cases where there are not a lot
+                                            of members</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <p><span class="tab"></span>Tuple: an immutable sequence
+                            <br><span class="tab"></span><span class="tab"></span>- Very similar to a list
+                            <br><span class="tab"></span><span class="tab"></span>- Once it is created it cannot be changed
+                            <br><span class="tab"></span><span class="tab"></span>- Format: <i><U>tuple_name = (item1, item2)</U></i>
+                            <br><span class="tab"></span><span class="tab"></span>- Tuples support operations as lists
+                            <br><span class="tab"></span><span class="tab"></span><span class="tab"></span>- Subscript indexing for retrieving elements
+                            <br><span class="tab"></span><span class="tab"></span><span class="tab"></span>- Methods such as <i><U>index</U></i>
+                            <br><span class="tab"></span><span class="tab"></span><span class="tab"></span>- Built in functions such as <i><U>len, min, max</U></i>
+                            <br><span class="tab"></span><span class="tab"></span><span class="tab"></span>- Slicing expressions
+                            <br><span class="tab"></span><span class="tab"></span><span class="tab"></span>- The <i><U>in, +, </U></i>and * operators
+                            <br><span class="tab"></span>Tuples do not support the methods:
+                            <br><span class="tab"></span><span class="tab"></span>- <i><U>append</U></i>
+                            <br><span class="tab"></span><span class="tab"></span>- <i><U>remove</U></i>
+                            <br><span class="tab"></span><span class="tab"></span>- <i><U>insert</U></i>
+                            <br><span class="tab"></span><span class="tab"></span>- <i><U>reverse</U></i>
+                            <br><span class="tab"></span><span class="tab"></span>- <i><U>sort</U></i>
+                            <br><span class="tab"></span>Advantages for using tuples over lists:
+                            <br><span class="tab"></span><span class="tab"></span>- Processing tuples is faster than processing lists
+                            <br><span class="tab"></span><span class="tab"></span>- Tuples are safe
+                            <br><span class="tab"></span><span class="tab"></span>- Some operations in Python require use of tuples
+                            <br><span class="tab"></span><i><U>list()</U></i> function: converts tuple to list
+                            <br><span class="tab"></span><i><U>tuple()</U></i> function: converts list to tuple
+                            </p>
+
+                            <div style="display: flex;flex-direction: row;justify-content: space-between;">
+                                <a href="index.html" class="button">Home</a>
+                                <a href="Dictionary and Set.html" class="button">Dictionary and Set</a>
+                              </div>
+
+
+                        </section>
+                        
+                </div>
+
+            <!-- Footer -->
+                <footer id="footer">
+                    
+                </footer>
+
+        </div>
+
+    <!-- Scripts -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/jquery.scrollex.min.js"></script>
+        <script src="assets/js/jquery.scrolly.min.js"></script>
+        <script src="assets/js/browser.min.js"></script>
+        <script src="assets/js/breakpoints.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
+
+</body>
+</html>
+
+<style>
+    .tab {
+        display: inline-block;
+        margin-left: 40px;
+    }
+
+    .text {
+        background-color: rgb(78, 161, 238);
+        color: white;
+        border: 5px solid rgb(0, 4, 255);
+        border-radius: 30px;
+        margin: 30px;
+        padding: 30px;
+    }
+</style>

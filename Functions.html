@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functions</title>
+    <link rel="stylesheet" href="assets/css/main.css" />
+	<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+</head>
+<body class="is-preload">
+
+    <!-- Wrapper -->
+        <div id="wrapper">
+
+            <!-- Header -->
+            <header id="header">
+                <h1>Functions</h1>
+            </header>
+    <!-- Main -->
+    <div id="main">
+
+        <!-- Content -->
+            <section id="content" class="main">
+                <h2><b>Functions</b></h2>
+                <p><span class="tab"></span>Functions are sub-programs within large programs, sometimes known as methods or routines, and are
+                    typically referred to as "functions" in structured programming, but a "method" in object oriented programming.</p>
+                <p>Types of functions are divided into two types: </br>1) Standard functions are available in the Python library. </br>2) Created by the programmer itself (User defined functions).
+                    For the functions that exist in the language when executing Python, the file must always be imported. This chapter
+                    discusses creating a function that the programmers created for their own use</p>
+                <h2><b>Functions</b></h2>
+                <p><span class="tab"></span>A function is a group of instructions contained within a program for a specific functional purpose.</p>
+                <div class="text">
+                    <div><span class="tab"></span>
+                    def function name()
+                    </div>
+                    <div><span class="tab"></span><span class="tab"></span>
+                    statement(s)
+                    </div>
+                    <div><span class="tab"></span><span class="tab"></span>
+                    statement(s)
+                    </div>
+                    <div><span class="tab"></span><span class="tab"></span>
+                    etc.
+                    </div>
+                </div>
+                <h2><b>Functions</b></h2>
+                <p><span class="tab"></span>A function is a section of reusable code that performs an action.
+                <br><span class="tab"></span>A function has a name and is called, or executed, by that name.
+                <br><span class="tab"></span>Optionally, functions can accept arguments and return data.
+                </p>
+                <div style="text-align: center;">
+                    <image src="images/Functions/img16.png"></image>
+                </div>
+                <h3 style="text-align: center;">Example (Functions)</h3>
+                <div class="text">
+                    <div><span class="tab"></span>
+                    def message():
+                    </div>
+                    <div><span class="tab"></span><span class="tab"></span>
+                    print('I am Patcharaphon')
+                    </div>
+                    <div><span class="tab"></span><span class="tab"></span>
+                    print('I love Python')
+                    </div>
+                </div>
+
+
+
+                <h2><b>Functions Names</b></h2>
+                <h3><b>Function naming rules:</b></h3>
+                <p><span class="tab"></span>Cannot use key words as a function name.
+                <br><span class="tab"></span>Cannot contain spaces.
+                <br><span class="tab"></span>First character must be a letter or underscore.
+                <br><span class="tab"></span>All other characters must be a letter, number or underscore.
+                <br><span class="tab"></span>Uppercase and lowercase characters are distinct
+                </p>
+                <h3 style="text-align: center;">Example (Functions Names)</h3>
+                <div class="text">
+                    <div><span class="tab"></span>
+                    def manin():
+                    </div>
+                    <div><span class="tab"></span><span class="tab"></span>
+                    print('I have a message for you.')
+                    </div>
+                    <div><span class="tab"></span><span class="tab"></span>
+                    message()
+                    </div>
+                    <div><span class="tab"></span><span class="tab"></span>
+                    print('Goodbye!')
+                    </div>
+
+                    <div><span class="tab"></span>
+                    def message():
+                    </div>
+                    <div><span class="tab"></span><span class="tab"></span>
+                    print('I am Patcharaphon.')
+                    </div>
+                    <div><span class="tab"></span><span class="tab"></span>
+                    print('I love Python')
+                    </div>
+                    <div><span class="tab"></span>
+                    main()
+                    </div>
+                </div>
+                <h2><b>BENEFITS OF MODULARISING A PROGRAM WITH FUNCTIONS</b></h2>
+                <p><span class="tab"></span>Simpler Code.
+                <br><span class="tab"></span>Code Reuse.
+                <br><span class="tab"></span>Better Testing.
+                <br><span class="tab"></span>Faster Development.
+                <br><span class="tab"></span>Easier Facilitation of Teamwork.
+                </p>
+                <div style="text-align: center;">
+                    <image src="images/Functions/img17.png"></image>
+                </div>
+
+                <h2><b>Passing Arguments to Functions</b></h2>
+                <h3><b>LOCAL VARIABLES</b></h3>
+                <p><span class="tab"></span>A local variable is created inside a function and cannot be accessed by statements that are outside the function. Different functions can have local variables with the same names because the functions cannot see each other's local variables.</p>
+                <h3 style="text-align: center;">Example (LOCAL VARIABLES)</h3>
+                <div class="text">
+                    <div><span class="tab"></span>
+                    def manin():
+                    </div>
+                    <div><span class="tab"></span><span class="tab"></span>
+                    texas()
+                    </div>
+                    <div><span class="tab"></span><span class="tab"></span>
+                    california()
+                    </div>
+                    <div><span class="tab"></span>
+                    def texas():
+                    </div>
+                    <div><span class="tab"></span><span class="tab"></span>
+                    birds = 5000
+                    </div>
+                    <div><span class="tab"></span><span class="tab"></span>
+                    print('texas has', birds, 'birds.')
+                    </div>
+                    <div><span class="tab"></span>
+                    def california():
+                    </div>
+                    <div><span class="tab"></span><span class="tab"></span>
+                    birds = 8000
+                    </div>
+                    <div><span class="tab"></span><span class="tab"></span>
+                    print('california has', birds, 'birds.')
+                    </div>
+                </div>
+                <div style="text-align: center;">
+                    <image src="images/Functions/img19.png"></image>
+                </div>
+                <h3><b>PASSING ARGUMENTS</b></h3>
+                <p><span class="tab"></span>An argument is any piece of data that is passed into a function when the function is called. A parameter is a variable that receives an argument that is passed into a function.</p>
+                <h3 style="text-align: center;">Example (PASSING ARGUMENTS)</h3>
+                <div class="text">
+                    <div><span class="tab"></span>
+                    def main():
+                    </div>
+                    <div><span class="tab"></span><span class="tab"></span>
+                    print('The sum of 12 and 14 is')
+                    </div>
+                    <div><span class="tab"></span><span class="tab"></span>
+                    show_sum(12, 45)
+                    </div>
+                    <div><span class="tab"></span>
+                    def show_sum(num1, num2):
+                    </div>
+                    <div><span class="tab"></span><span class="tab"></span>
+                    result = num1 + num2
+                    </div>
+                    <div><span class="tab"></span><span class="tab"></span>
+                    print(result)
+                    </div>
+                    <div><span class="tab"></span>
+                    main()
+                    </div>
+                </div>
+                <div style="text-align: center;">
+                    <image src="images/Functions/img20.png"></image>
+                </div>
+                <h3><b>PASSING STRING ARGUMENTS</b></h3>
+                <h3 style="text-align: center;">Example (PASSING STRING ARGUMENTS)</h3>
+                <div class="text">
+                    <div><span class="tab"></span>
+                    def reverse_name(first, last):
+                    </div>
+                    <div><span class="tab"></span><span class="tab"></span>
+                    print(last, first)
+                    </div>
+                    <div><span class="tab"></span>
+                    def main():
+                    </div>
+                    <div><span class="tab"></span><span class="tab"></span>
+                    first_name = input('Enter your first name: ')
+                    </div>
+                    <div><span class="tab"></span><span class="tab"></span>
+                    last_name = input('Enter your last name: ')
+                    </div>
+                    <div><span class="tab"></span><span class="tab"></span>
+                    print('Your name reversed is')
+                    </div>
+                    <div><span class="tab"></span><span class="tab"></span>
+                    main():
+                    </div>
+                </div>
+                <h2><b>GLOBAL VARIABLES AND CONSTANTS</b></h2>
+                <h3 style="text-align: center;">Example (GLOBAL VARIABLES AND CONSTANTS)</h3>
+                <div class="text">
+                    <div><span class="tab"></span>
+                    number=0
+                    </div>
+                    <div><span class="tab"></span>
+                    def main():
+                    </div>
+                    <div><span class="tab"></span><span class="tab"></span>
+                    global number
+                    </div>
+                    <div><span class="tab"></span><span class="tab"></span>
+                    number = int(input('Enter a number: '))
+                    </div>
+                    <div><span class="tab"></span><span class="tab"></span>
+                    show number()
+                    </div>
+                    <div><span class="tab"></span>
+                    def show_number ():
+                    </div>
+                    <div><span class="tab"></span><span class="tab"></span>
+                    print('The number you entered is', number)
+                    </div>
+                    <div><span class="tab"></span>
+                    main()
+                    </div>
+                </div>
+                <h2><b>Value-Returning Functions</b></h2>
+                <p><span class="tab"></span>A value-returning function has a return statement that returns a value back to the part of the program that called it.</p>
+                <h3 style="text-align: center;">Example (Value-Returning Functions)</h3>
+                <div class="text">
+                    <div><span class="tab"></span>
+                    def function_name():
+                    </div>
+                    <div><span class="tab"></span><span class="tab"></span>
+                    statement
+                    </div>
+                    <div><span class="tab"></span><span class="tab"></span>
+                    statement
+                    </div>
+                    <div><span class="tab"></span><span class="tab"></span>
+                    etc.
+                    </div>
+                    <div><span class="tab"></span><span class="tab"></span>
+                    return expression
+                    </div>
+                </div>
+                <div style="text-align: center;">
+                <image src="images/Functions/img21.png"></image>
+                </div>
+                <h2><b>IPO AND FUNCTION</b></h2>
+                <h3 style="text-align: center;">Example (IPO AND FUNCTION)</h3>
+                <div class="text">
+                    <div><span class="tab"></span>
+                    def discount():
+                    </div>
+                    <div><span class="tab"></span><span class="tab"></span>
+                    return price * DISCOUNT_PERCENTAGE
+                    </div>
+                </div>
+                <h3 style="text-align: center;">IPO Chart for the discount Function</h3>
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>Input</th>
+                            <th>Processing</th>
+                            <th>Output</th>
+                        </tr>
+                        <tr>
+                            <td>An item's regular price</td>
+                            <td>Calculates an item's discount by multiplying theregular price by the global constant DISCOUNT_PERCENTAGE</td>
+                            <td>The item's discount</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h2><b>VALUE-RETURNING FUNCTIONS</b></h2>
+                <h3 style="text-align: center;">Example (VALUE-RETURNING FUNCTIONS)</h3>
+                <div class="text">
+                    <div><span class="tab"></span>
+                    def get_ name():
+                    </div>
+                    <div><span class="tab"></span><span class="tab"></span>
+                    first = input('Enter your first name: ')
+                    </div>
+                    <div><span class="tab"></span><span class="tab"></span>
+                    last = input( 'Enter your last name: ')
+                    </div>
+                    <div><span class="tab"></span><span class="tab"></span>
+                    return first, last
+                    </div>
+                    <div><span class="tab"></span>
+                    first_name, last_name = get_ name()
+                    </div>
+                    <div><span class="tab"></span>
+                    print('First name : ,first name, Last name : last name)
+                    </div>
+                </div>
+                <h2><b>Storing Functions in Modules</b></h2>
+                <p><span class="tab"></span>A module is a file that contains Python code. Large programs are easier to debug and maintain when they are divided into modules.</p>
+                <h3 style="text-align: center;">Example (Storing Functions in Modules)</h3>
+                <div class="text">
+                    <div><span class="tab"></span>
+                    def area(width, length):
+                    </div>
+                    <div><span class="tab"></span></span><span class="tab"></span>
+                    return width * length
+                    </div>
+                    <div><span class="tab"></span>
+                    def perimeter(width, length):
+                    </div>
+                    <div><span class="tab"></span><span class="tab"></span>
+                    return 2 * (width, length)
+                    </div>
+                </div>
+
+                <h2><b>Python common functions</b></h2>
+                <h3 style="text-align: center;"><b>COMMON FUNCTIONS</b></h3>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>abs()</td>
+                            <td>delattr()</td>
+                            <td>hash()</td>
+                            <td>memoryview()</td>
+                            <td>set()</td>
+                        </tr>
+                        <tr>
+                            <td>all()</td>
+                            <td>dict()</td>
+                            <td>help()</td>
+                            <td>min()</td>
+                            <td>setattr()</td>
+                        </tr>
+                        <tr>
+                            <td>any()</td>
+                            <td>dir()</td>
+                            <td>hex()</td>
+                            <td>next()</td>
+                            <td>slice()</td>
+                        </tr>
+                        <tr>
+                            <td>ascii()</td>
+                            <td>divmod()</td>
+                            <td>id</td>
+                            <td>object()</td>
+                            <td>sorted()</td>
+                        </tr>
+                        <tr>
+                            <td>bin()</td>
+                            <td>enumerate()</td>
+                            <td>input()</td>
+                            <td>oct()</td>
+                            <td>staticmathod()</td>
+                        </tr>
+                        <tr>
+                            <td>bool()</td>
+                            <td>eval()</td>
+                            <td>int()</td>
+                            <td>open()</td>
+                            <td>str()</td>
+                        </tr>
+                        <tr>
+                            <td>breakpoints()</td>
+                            <td>exec()</td>
+                            <td>isinstance()</td>
+                            <td>ord()</td>
+                            <td>sum()</td>
+                        </tr>
+                        <tr>
+                            <td>bytearray()</td>
+                            <td>filter()</td>
+                            <td>issubclass()</td>
+                            <td>pow()</td>
+                            <td>super()</td>
+                        </tr>
+                        <tr>
+                            <td>bytes()</td>
+                            <td>float()</td>
+                            <td>iter()</td>
+                            <td>print()</td>
+                            <td>tuple()</td>
+                        </tr>
+                        <tr>
+                            <td>callable()</td>
+                            <td>format()</td>
+                            <td>len()</td>
+                            <td>property()</td>
+                            <td>type()</td>
+                        </tr>
+                        <tr>
+                            <td>chr()</td>
+                            <td>frozenset()</td>
+                            <td>list()</td>
+                            <td>range()</td>
+                            <td>vars()</td>
+                        </tr>
+                        <tr>
+                            <td>classmethod()</td>
+                            <td>getattr()</td>
+                            <td>locals()</td>
+                            <td>repr()</td>
+                            <td>zips()</td>
+                        </tr>
+                        <tr>
+                            <td>compile()</td>
+                            <td>globals()</td>
+                            <td>map()</td>
+                            <td>reversed()</td>
+                            <td>_import_()</td>
+                        </tr>
+                        <tr>
+                            <td>complex()</td>
+                            <td>hasattr()</td>
+                            <td>max()</td>
+                            <td>round()</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div style="display: flex;flex-direction: row;justify-content: space-between;">
+                    <a href="index.html" class="button">Home</a>
+                    <a href="Files and Exceptions.html" class="button">Files and Exceptions</a>
+                  </div>
+            </section>
+            
+    </div>
+
+<!-- Footer -->
+    <footer id="footer">
+        
+    </footer>
+    
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
+<style>
+	.tab {
+		display: inline-block;
+		margin-left: 40px;
+	}
+
+	.text {
+		background-color: rgb(78, 161, 238);
+		color: white;
+		border: 5px solid rgb(0, 4, 255);
+		border-radius: 30px;
+		margin: 30px;
+		padding: 30px;
+	}
+</style>

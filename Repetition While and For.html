@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repetition While and For</title>
+    <link rel="stylesheet" href="assets/css/main.css" />
+	<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+</head>
+<body class="is-preload">
+
+    <!-- Wrapper -->
+        <div id="wrapper">
+
+            <!-- Header -->
+            <header id="header">
+
+            
+                <h1>Repetition While and For</h1>
+                
+            </header>
+
+            <!-- Main -->
+                <div id="main">
+
+                    <!-- Content -->
+                        <section id="content" class="main">
+                            <h2><b>Repetition Structure</b></h2>
+                            <p><span class="tab"></span>An iterative structure is one in which specific statements or groups of instructions are repeated more than
+                                once. This iteration must always be determined as a condition to determine whether or not to loop.</p>
+                            <h2><b>While Loop</b></h2>
+                            <p><span class="tab"></span>An iterative statement with a precondition that always checks the conditions before execution. When the
+                                checked condition is true, the statement after "while" is executed, but if the condition is false it will stop the order.
+                            </p>
+                            <div style="text-align: center;">
+                                <image src="images/img5.png" alt=""></image>
+                              </div>
+                            <h3 style="text-align: center;">Example (While Loop)</h3>
+                            <div class="text">
+                                <div><span class="tab"></span>
+                                While condition
+                                </div>
+                                <div><span class="tab"></span><span class="tab"></span>
+                                statement(s)
+                                </div>
+                                <div><span class="tab"></span><span class="tab"></span>
+                                statement(s)
+                                </div>
+                                <div><span class="tab"></span><span class="tab"></span>
+                                ...
+                                </div>
+                                <div><span class="tab"></span><span class="tab"></span>
+                                statement(s)
+                                </div>
+                            </div>
+                            <h3 style="text-align: center;">Example Flowchart</h2>
+                                <div style="text-align: center;">
+                                  <image src="images/Repetition While and For/while.png" alt=""></image>
+                                </div>
+                                <h3 style="text-align: center;">Example Program</h2>
+                                    <div style="text-align: center;">
+                                        <image src="images/Repetition While and For/img34.png" alt=""></image>
+                                      </div>
+
+
+
+                            <h2><b>For Loop</b></h2>
+                            <p><span class="tab"></span>The for statement, like the while statement, is used to loop, and the condition must be checked before
+                                entering the loop. The difference is that for checks, an item in sequence (Item of sequence), such as a string, list, or
+                                tuples type of data, is used instead.
+                            </p>
+                            <div style="text-align: center;">
+                                <image src="images/img6.png" alt=""></image>
+                              </div>
+                            <h3 style="text-align: center;">Example (For Loop)</h3>
+                            <div class="text">
+                                <div><span class="tab"></span>
+                                for iterating var in sequence:
+                                </div>
+                                <div><span class="tab"></span><span class="tab"></span>
+                                statement(s)
+                                </div>
+                            </div>
+                            <h3 style="text-align: center;">Example Flowchart</h2>
+                                <div style="text-align: center;">
+                                  <image src="images/Repetition While and For/for.png" alt=""></image>
+                                </div>
+
+                                <h3 style="text-align: center;">Example Program</h2>
+                            <div style="text-align: center;">
+                                <image src="images/Repetition While and For/for_program.png" alt=""></image>
+                              </div>
+                            <h2><b>Range (start, stop, step)</b></h2>
+                            <div class="text">
+                                <div><span class="tab"></span>
+                                for variable in [start, stop, step]:
+                                </div>
+                                <div><span class="tab"></span><span class="tab"></span>
+                                statement
+                                </div>
+                                <div><span class="tab"></span><span class="tab"></span>
+                                statement
+                                </div>
+                                <div><span class="tab"></span><span class="tab"></span>
+                                etc.
+                                </div>
+                            </div>
+                            <h3 style="text-align: center;">Example (Range (start, stop, step))</h3>
+                            <div class="text">
+                                <div><span class="tab"></span>
+                                for variable in [start, stop, step]:
+                                </div>
+                                <div><span class="tab"></span><span class="tab"></span>
+                                statement
+                                </div>
+                                <div><span class="tab"></span><span class="tab"></span>
+                                statement
+                                </div>
+                                <div><span class="tab"></span><span class="tab"></span>
+                                etc.
+                                </div>
+                            </div>
+                            <h3 style="text-align: center;">Example (Range (start, stop, step))</h3>
+                            <div class="text">
+                                <div><span class="tab"></span>
+                                for a in range(100):
+                                </div>
+                                <div><span class="tab"></span>
+                                for a in range(1,100):
+                                </div>
+                                <div><span class="tab"></span>
+                                for a in range(1,100,2):
+                                </div>
+                            </div>
+
+
+
+                            <h2><b>Calculating Running Total</b></h2>
+                            <p><span class="tab"></span>The total is the sum of the numbers from each iteration. The variable that stores the sum is known as the
+                                accumulator.</p>
+                            <p><span class="tab"></span>Two of these components are often used in programs that calculate the sum of a set of numbers:</p>
+                            <p><span class="tab"></span><span class="tab"></span>- a loop that iterates over each number in a series</p>
+                            <p><span class="tab"></span><span class="tab"></span>- A variable that collects all numbers when reading</p>
+                            <h3 style="text-align: center;">Example Flowchart</h2>
+                                <div style="text-align: center;">
+                                  <image src="images/img7.png" alt=""></image>
+                                </div>
+                            <h2 style="text-align: center;">Calculating Running Total</h2>
+                            <table class="table-danger">
+                                <tbody>
+                                    <tr>
+                                        <th>Statement</th>
+                                        <th>What It Does</th>
+                                        <th>Value of x after the Statement</th>
+                                    </tr>
+                                    <tr>
+                                        <td>x = x + 4</td>
+                                        <td>Add 4 to x</td>
+                                        <td>10</td>
+                                    </tr>
+                                    <tr>
+                                        <td>x = x - 3</td>
+                                        <td>Substracts 3 from x</td>
+                                        <td>3</td>
+                                    </tr>
+                                    <tr>
+                                        <td>x = x * 10</td>
+                                        <td>Multiplies x by 10</td>
+                                        <td>60</td>
+                                    </tr>
+                                    <tr>
+                                        <td>x = x / 2</td>
+                                        <td>Devides x by 2</td>
+                                        <td>3</td>
+                                    </tr>
+                                    <tr>
+                                        <td>x = x % 4</td>
+                                        <td>Assgins the remainder of x / 4 to x</td>
+                                        <td>2</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <h2 style="text-align: center;">Calculating Running Total</h2>
+                            <table class="table-danger">
+                                <tbody>
+                                    <tr>
+                                        <th>Operators</th>
+                                        <th>Example Usage</th>
+                                        <th>Equivalent To</th>
+                                    </tr>
+                                    <tr>
+                                        <td>+=</td>
+                                        <td>x += 5</td>
+                                        <td>x = x + 5</td>
+                                    </tr>
+                                    <tr>
+                                        <td>-=</td>
+                                        <td>y -= 2</td>
+                                        <td>y = y - 2</td>
+                                    </tr>
+                                    <tr>
+                                        <td>*=</td>
+                                        <td>z *= 10</td>
+                                        <td>z = z * 10</td>
+                                    </tr>
+                                    <tr>
+                                        <td>/=</td>
+                                        <td>a /= b</td>
+                                        <td>a = a / b</td>
+                                    </tr>
+                                    <tr>
+                                        <td>%=</td>
+                                        <td>c %= 3</td>
+                                        <td>c = c % 3</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <h3 style="text-align: center;">Example (Calculating Running Total)</h3>
+                            <div class="text">
+                                <div><span class="tab"></span>
+                                numbers = [6, 5, 3, 8, 4, 2, 5, 4, 11]
+                                </div>
+                                <div><span class="tab"></span>
+                                sum = 0
+                                </div>
+                                <div><span class="tab"></span>
+                                for val in numbers:
+                                </div>
+                                <div><span class="tab"></span><span class="tab"></span>
+                                sum += val
+                                </div>
+                                <div><span class="tab"></span><span class="tab"></span>
+                                print(sum)
+                                </div>
+                                <div><span class="tab"></span>
+                                print('The sum is',sum)
+                                </div>
+                            </div>
+                            <h3 style="text-align: center;">Resultant (Calculating Running Total)</h3>
+                            <div style="text-align: center;">
+                                <image src="images/Repetition While and For/Resultant (Calculating Running Total).png" alt=""></image>
+                            </div>
+
+                            <h2><b>Sentinel</b></h2>
+                            <p>A special value that marks the end of a value series.</p>
+                            <p><span class="tab"></span>- At the end of each loop, ask the user. If there are other values to be taken, however, asking this question at
+                                the end of each loop might make the program cumbersome for the user.</p>
+                            <p><span class="tab"></span>- Asks the user at the beginning of the program how many items are in the sequence. This can be
+                                cumbersome for the user if the sequence is very long and the user can't remember how many items are in it
+                                so, the user will need to count the number of items.</p>
+                            <h3 style="text-align: center;">Example (Sentinel)</h3>
+                            <div class="text">
+                                <div><span class="tab"></span>
+                                keep_going = "y"
+                                </div>
+                                <div><span class="tab"></span>
+                                while keep_going == 'y':
+                                </div>
+                                <div><span class="tab"></span><span class="tab"></span>
+                                wholesale = int(input("Enter the item's wholesale cost: "))
+                                </div>
+                                <div><span class="tab"></span><span class="tab"></span>
+                                retail_price = wholesale * 2.5
+                                </div>
+                                <div><span class="tab"></span><span class="tab"></span>
+                                print("Retail price", retail_price)
+                                </div>
+                                <div><span class="tab"></span><span class="tab"></span>
+                                keep_going = input("Do you have another item?" + \
+                                "(Enter y for yes): ")
+                                </div>
+                            </div>
+                            <h3 style="text-align: center;">Resultant (Sentinel)</h3>
+                            <div style="text-align: center;">
+                                <image src="images/Repetition While and For/Resultant (Sentinel).png" alt=""></image>
+                            </div><br>
+                                                        
+                            <h2><b>Input Validation Loops</b></h2>
+                            <p><span class="tab"></span>Input validation is the process of ensuring that information entered into a program is correct before it is used
+                                in calculation. Input validation is often done through the use of loops that run as long as the input variable refers
+                                invalid data.</p>
+                            <h3 style="text-align: center;">Example (Input Validation Loops)</h3>
+                            <div class="text">
+                                <div><span class="tab"></span>
+                                score = int(input("Enter a test score: "))
+                                </div>
+                                <div><span class="tab"></span>
+                                while score < 0 or score > 100:
+                                </div>
+                                <div><span class="tab"></span><span class="tab"></span>
+                                print("ERROR: The score cannot be negative")
+                                </div>
+                                <div><span class="tab"></span><span class="tab"></span>
+                                print("or greater that 100.")
+                                </div>
+                                <div><span class="tab"></span><span class="tab"></span>
+                                score = int(input("Enter the correct score: "))
+                                </div>
+                            </div>
+                            <h3 style="text-align: center;">Resultant (Input Validation Loops)</h3>
+                            <div style="text-align: center;">
+                                <image src="images/Repetition While and For/Resultant (Input Validation Loops).png" alt=""></image>
+                            </div><br>
+                        
+                            <h2><b>Nested loops</b></h2>
+                            <p><span class="tab"></span>Python allows programmers to use nested loops (placement of a “for loop” within a “for loop”) as it shows
+                                below.</p>
+                            <h3 style="text-align: center;">Nested loops of "for"</h3>
+                            <div class="text">
+                                <div><span class="tab"></span>
+                                for iterating_var insequence:
+                                </div>
+                                <div><span class="tab"></span><span class="tab"></span>
+                                for iterating_var insequence:
+                                </div>
+                                <div><span class="tab"></span><span class="tab"></span><span class="tab"></span>
+                                statements(s) 
+                                </div>
+                                <div><span class="tab"></span>
+                                statements(s)
+                                </div>
+                            </div>
+                            <h3 style="text-align: center;">Nested loops of "while"</h3>
+                            <div class="text">
+                                <div><span class="tab"></span>
+                                while expression:
+                                </div>
+                                <div><span class="tab"></span><span class="tab"></span>
+                                while expression:
+                                </div>
+                                <div><span class="tab"></span><span class="tab"></span><span class="tab"></span>
+                                statement(s)
+                                </div>
+                                <div><span class="tab"></span>
+                                statements(s)
+                                </div>
+                            </div>
+                            <h3 style="text-align: center;">Nested loops of "for" and "while"</h3>
+                            <div class="text">
+                                <div><span class="tab"></span>
+                                for iterating_var insequence:
+                                </div>
+                                <div><span class="tab"></span><span class="tab"></span>
+                                while expression:
+                                </div>
+                                <div><span class="tab"></span><span class="tab"></span><span class="tab"></span>
+                                statement(s)
+                                </div>
+                                <div><span class="tab"></span>
+                                statements(s)
+                                </div>
+                            </div>
+                            <p><span class="tab"></span>The number of levels that can be nested loops in Python is not limited. As a result, programmers may nest
+                                loops independently. It depends on the complexity of the task, but overlapping loops might make it difficult for the
+                                program to understand or fix errors. There will be an indentation issue within the loop. This may cause the program to
+                                malfunction therefore, this is a weakness for Python since the lack of a boundary marker often requires depend on
+                                the eye to determine the limit of a command.</p>
+                                <h3 style="text-align: center;">Example (Nested loops)</h3>
+                            <div class="text">
+                                <div><span class="tab"></span>
+                                for i in range(1, 10):
+                                </div>
+                                <div><span class="tab"></span><span class="tab"></span>
+                                print("For loop for i") 
+                                </div>
+                                <div><span class="tab"></span><span class="tab"></span>
+                                for j in range(1, i):  
+                                </div>
+                                <div><span class="tab"></span><span class="tab"></span><span class="tab"></span>
+                                print("For loop for j")
+                                </div>
+                            </div>
+                            <h2><b>Continue , Break , Pass</b></h2>
+                            <h2>Continue</h2>
+                            <p><span class="tab"></span>A statement instructing the program to restart at the beginning of the loop, resulting in any statements after
+                                the continue statement and within the scope of the repeat statement not being processed in that loop. In the
+                                continuing scheme, the continue statement works with both "while" and "for loop".</p>
+                            <div style="text-align: center;">
+                                <image src="images/Repetition While and For/img8.png"></image>
+                            </div>
+                            <h3 style="text-align: center;">Example (Continue)</h3>
+                            <div class="text">
+                                <div><span class="tab"></span>
+                                for letter in "Kainapat Suwannachote" :
+                                </div>
+                                <div><span class="tab"></span><span class="tab"></span>
+                                if letter == "a" or letter == "k" :
+                                </div>
+                                <div><span class="tab"></span><span class="tab"></span><span class="tab"></span>
+                                continue
+                                </div>
+                                <div><span class="tab"></span><span class="tab"></span>
+                                print("Current Letter :", letter)
+                                </div>
+                            </div>
+                            <h3 style="text-align: center;">Resultant (Continue)</h3>
+                            <div style="text-align: center;">
+                                <image src="images/Repetition While and For/Resultant (Continue).png"></image>
+                            </div>
+                            <h2>Break</h2>
+                            <p><span class="tab"></span>This command tells the program to stop repeating itself. When the program stops in the current loop during
+                                the execution of the break statement in a nested loop, the program continues to run in the loop that encapsulates
+                                the current loop. The break statement only works with the while and for loops, not if, if-else, and if-elif as in C for a
+                                break mockup.</p>
+                            
+                            <div style="text-align: center;">
+                                <image src="images/Repetition While and For/img9.png"></image>
+                            </div>
+                            <h3 style="text-align: center;">Example (Break)</h3>
+                            <div class="text">
+                                <div><span class="tab"></span>
+                                for letter in "Kainapat Suwannachote" :
+                                </div>
+                                <div><span class="tab"></span><span class="tab"></span>
+                                if letter == "a" or letter == "k" :
+                                </div>
+                                <div><span class="tab"></span><span class="tab"></span><span class="tab"></span>
+                                break
+                                </div>
+                                <div><span class="tab"></span><span class="tab"></span>
+                                print("Current Letter :", letter)
+                                </div>
+                            </div>
+                            <h3 style="text-align: center;">Resultant (Break)</h3>
+                            <div style="text-align: center;">
+                                <image src="images/Repetition While and For/Resultant (Break).png"></image>
+                            </div>
+                            <h2>Pass</h2>
+                            <p><span class="tab"></span>It is one instruction that indicates that no action on that line is taken. Often used when a program is
+                                organized but the instructions have not been specified in detail.</p>
+                            <h3 style="text-align: center;">Example (Pass)</h3>
+                            <div class="text">
+                                <div><span class="tab"></span>
+                                for letter in "Kainapat Suwannachote" :
+                                </div>
+                                <div><span class="tab"></span><span class="tab"></span>
+                                if letter == "a" or letter == "k" :
+                                </div>
+                                <div><span class="tab"></span><span class="tab"></span><span class="tab"></span>
+                                pass
+                                </div>
+                                <div><span class="tab"></span><span class="tab"></span>
+                                print("Current Letter :", letter)
+                                </div>
+                            </div>
+                            <h3 style="text-align: center;">Resultant (Pass)</h3>
+                            <div style="text-align: center;">
+                                <image src="images/Repetition While and For/Resultant (Pass).png"></image>
+                            </div>
+
+                            <div style="display: flex;flex-direction: row;justify-content: space-between;">
+                                <a href="index.html" class="button">Home</a>
+                                <a href="String.html" class="button">String</a>
+                              </div>
+                        </section>
+                        
+                </div>
+
+            <!-- Footer -->
+                <footer id="footer">
+                    
+                </footer>
+
+        </div>
+
+    <!-- Scripts -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/jquery.scrollex.min.js"></script>
+        <script src="assets/js/jquery.scrolly.min.js"></script>
+        <script src="assets/js/browser.min.js"></script>
+        <script src="assets/js/breakpoints.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
+
+</body>
+</html>
+<style>
+	.tab {
+		display: inline-block;
+		margin-left: 40px;
+	}
+
+	.text {
+		background-color: rgb(78, 161, 238);
+		color: white;
+		border: 5px solid rgb(0, 4, 255);
+		border-radius: 30px;
+		margin: 30px;
+		padding: 30px;
+	}
+</style>

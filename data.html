@@ -1,0 +1,783 @@
+<!DOCTYPE HTML>
+<!--
+	Stellar by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+    <title>Data Type, Variable and Expression</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css" />
+    </noscript>
+</head>
+
+<body class="is-preload">
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+        <!-- Header -->
+        <header id="header">
+            <h1>Data Type, Variable and Expression</h1>
+
+        </header>
+
+        <!-- Main -->
+        <div id="main">
+
+            <!-- Content -->
+            <section id="content" class="main">
+                <span class="image main"><img src="images/python-data-types.jpg" alt="" width="300"
+                        height="550" /></span>
+                <h2><b>WHAT IS COMPUTER?</b></h2>
+                <p>
+                    A computer is an electronic machine that processes information—in other words, an information
+                    processor: it takes in raw information (or data) at one end, stores it until it's ready to work on
+                    it, chews and crunches it for a bit, then spits out the results at the other end</p>
+                <h2><b>HOW DOES A COMPUTER WORK?</b></h2>
+                <p>A computer processes the input to produce the desired output, but how does a machine outperform the
+                    human brain? Conventional computers don't try to mimic the human brain. Instead, they run commands
+                    sequentially, with data constantly moving from input and memory to the device's processor.
+                    Neuromorphic computers, on the other hand, process data at the same time, making them faster,
+                    energy-efficient, and closer to the structure of the human brain.</p>
+                <span class="image LEFT"><img src="images/com.jfif" alt="" width="400" height="550" /></span><br>
+                <ol>
+                    <li><b>Input</b><br> Input is the data before processing. It comes from the mouse, keyboard,
+                        microphone, and other external sensors.
+                    </li>
+                    <li><b>Storage</b><br>The storage is how the computer retains input data. The hard drive is used for
+                        long-term and mass data storage</li>
+                    <li><b>Processing</b><br>Processing is where input gets transformed into output. The computer's
+                        Central Processing Unit (CPU) is its brain. It's responsible for executing instructions and
+                        performing mathematical operations on the input data.</li>
+                    <li><b>Output</b><br>Output is the final result of data processing. It can be anything from images,
+                        video, or audio content, even the words you type using a keyboard. You can also receive the
+                        output through a printer or a projector instead of directly through your device.</li>
+                </ol>
+                <h2><b>SOFTWARE?</b></h2>
+                <p>Software is a set of computer programs and associated documentation and data. This is in contrast to
+                    hardware, from which the system is built and which actually performs the work.</p>
+                <span class="image left"><img src="images/Software.jfif"
+                        alt="" /></span><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                <h2><b>SYSTEM SOFTWARE</b></h2>
+                <ol>
+                    <li><b>Operating Systems</b><br>Windows, Mac Os, Linux</li>
+                    <li><b>Utility Programs</b><br>Compression, Virus scanners, Back up</li>
+                    <li><b>Software Development</b><br>Assemblers, Compilers, Interpreter</li>
+                </ol>
+                <h2><b>APPLICATION SOFTWARE</b></h2>
+                <p><b>Example Application:</b> Microsoft word, PowerPoint, Excel, Photoshop</p>
+                <h2><b>HOW COMPUTER STORE DATA?</b></h2>
+                <p>All data stored on storage media – whether that’s hard disk drives (HDDs), solid state drives (SSDs),
+                    external hard drives, USB flash drives, SD cards etc – can be converted to a string of bits,
+                    otherwise known as binary digits. These binary digits have a value of 1 or 0, and the strings can
+                    make up photos, documents, audio and video. A byte is the most common unit of storage and is equal
+                    to 8 bits.</p>
+                <p>All data in a computer is stored as a number. For example, letters become numbers; the Complete Works
+                    of Shakespeare is around 1250 pages in print, contains 40 million bits, with one byte per letter,
+                    totalling five megabytes (5MB). Photographs are converted to a set of numbers that indicate the
+                    location, colour and brightness of each pixel. Whereas convention numbers use ten digits (0, 1, 2,
+                    3, 4, 5, 6, 7, 8, 9), binary numbers use two digits to represent all possible values. The
+                    conventions numbers 0-8 translate into binary numbers as: 0, 1, 10, 11, 100, 101, 110, 111 and 1000.
+                    With binary numbers, any value can be stored as a series of items which are either true (1) or false
+                    (0).</p>
+                <p>Binary data is primarily stored on the hard disk drive (HDD). The device is made up of a spinning
+                    disk (or disks) with magnetic coatings and heads that can both read and write information in the
+                    form of magnetic patterns. In addition to hard disk drives, floppy disks and tapes also store data
+                    magnetically. Newer laptops, as well as mobile phones, tablets, USB flash drives and SD cards, use
+                    solid state (or flash) storage. With this storage medium, the binary numbers are instead stored as a
+                    series of electrical charges within the NAND flash chips. Because all data is made up of a string of
+                    binary numbers, just one number out of place can cause a file to become corrupt.</p>
+                <span class="image main"><img src="images/Love Binary Code - IPhone Wallpapers.png" alt="" /></span>
+                <h2><b>HOW PROGRAM WORK?</b></h2>
+                <p>The CPU runs instructions using a "fetch-execute" cycle: the CPU gets the first instruction in the
+                    sequence, executes it (adding two numbers or whatever), then fetches the next instruction and
+                    executes it, and so on. Some of the instructions affect the order that the CPU takes through the
+                    instruction sequence. For example, an instruction might direct the CPU to jump back to an earlier
+                    point in the instruction sequence (loops are implemented this way), or to skip over the next
+                    instruction if a particular condition is true (if-statements are implemented this way).</p>
+                <h3><b>What is Fetch - Decode - Execute - Cycle</b></h3>
+                <span class="image main"><img src="images/data/fetch.png" alt="" /></span><br>
+                <h2><b>Assembly language</b></h2>
+                <p>In computer programming, assembly language, often referred to simply as Assembly and commonly
+                    abbreviated as ASM or asm, is any low-level programming language with a very strong
+                    correspondence between the instructions in the language and the architecture's machine code
+                    instructions. Assembly language usually has one statement per machine instruction (1:1), but
+                    constants, comments, assembler directives, symbolic labels of, e.g., memory locations,
+                    registers, and macros are generally also supported.</p>
+                <span class="image main"><img src="images/data/assembly.png" alt="" /></span><br>
+                <h2><b>High level language</b></h2>
+                <p>In computer science, a high-level programming language is a programming language with strong
+                    abstraction from the details of the computer. In contrast to low-level programming
+                    languages, it may use natural language elements, be easier to use, or may automate (or even
+                    hide entirely) significant areas of computing systems (e.g. memory management), making the
+                    process of developing a program simpler and more understandable than when using a
+                    lower-level language. The amount of abstraction provided defines how "high-level" a
+                    programming language is.</p>
+                <h2><b>Programing language</b></h2>
+                <span class="image main"><img src="images/data/codelanguage.jfif" alt="" /></span>
+                <span class="image main"><img src="images/data/codelanguage2.jfif" alt="" /></span><br>
+                <h2><b>Compiler</b></h2>
+                <p>A compiler is a program that translates a source language or high-level programming
+                    language (for example, Java, C++) into a target machine code (binary bits – 1 and 0)
+                    that the CPU can process and understand. The program to be translated is written
+                    inside an editor and are known as source statements. The act of translating source
+                    code to machine or binary code is known as compilation.</p>
+                <span class="image main"><img src="images/data/compiler.jfif" alt="" /></span><br>
+                <h2><b>Interpreter</b></h2>
+                <p>An interpreter is a program which also converts a high-level programming language
+                    (like Python, PHP, Perl) into machine code. Although similar to a compiler, the
+                    way that code is executed is different for both. Unlike a compiler that simply
+                    converts the source code to machine code, an interpreter can be run directly as
+                    an executable program. Contrary to a compiler, it converts source code to
+                    machine code when the program is running and not before the program runs.</p>
+                <span class="image main"><img src="images/data/interpreter.jfif" alt="" /></span><br>
+                <h2><b>PROGRAM DISIGN</b></h2>
+                <h3>Program development cycle</h3>
+                <p>is Programming Development Cycle is a model which is used to represent the
+                    stages and tasks that are included orderly in each step to write and put
+                    software.</p>
+                <p>From the initial process of planning, the particular software can be used as
+                    a product in long-term usage by implementation and continuation and used as
+                    a completed software application. The Programming Development Cycle contains
+                    step by steps like analysis which is a requirement.</p>
+                <p>It also designs the solution and after that validates and implements the
+                    design. Then test and document the solution. In the below section, you will
+                    understand what are the stages or cycles of Programming Development.</p>
+                <span class="image main"><img src="images/data/develop cycle.jfif" alt="" /></span><br>
+                <h2><b>Designing a Program</b></h2>
+                <ol>
+                    <li>Understanding the Program</li>
+                    <li>Using Design Tools to Create a Model</li>
+                    <li>Develop Test Data</li>
+                </ol>
+                <h2><b>Pseudocode</b></h2>
+                <p>In computer science, pseudocode is a plain language description of the
+                    steps in an algorithm or another system. Pseudocode often uses
+                    structural conventions of a normal programming language, but is intended
+                    for human reading rather than machine reading. It typically omits
+                    details that are essential for machine understanding of the algorithm,
+                    such as variable declarations and language-specific code. The
+                    programming language is augmented with natural language description
+                    details, where convenient, or with compact mathematical notation. The
+                    purpose of using pseudocode is that it is easier for people to
+                    understand than conventional programming language code, and that it is
+                    an efficient and environment-independent description of the key
+                    principles of an algorithm. It is commonly used in textbooks and
+                    scientific publications to document algorithms and in planning of
+                    software and other algorithms.</p>
+                <h2><b>FLOWCHART</b></h2>
+                <p>A flowchart is a type of diagram that represents a workflow or process. A
+                    flowchart can also be defined as a diagrammatic representation of an
+                    algorithm, a step-by-step approach to solving a task. The flowchart
+                    shows the steps as boxes of various kinds, and their order by connecting
+                    the boxes with arrows. This diagrammatic representation illustrates a
+                    solution model to a given problem. Flowcharts are used in analyzing,
+                    designing, documenting or managing a process or program in various
+                    fields.</p>
+                <h3><b>How FlowChart important?</b></h3>
+                <p>Flow charts are an important tool for the improvement of processes. By
+                    providing a graphical representation, they help project teams to
+                    identify the different elements of a process and understand the
+                    interrelationships among the various steps.</p>
+                <span class="image main"><img src="images/data/FlowchartEx.jpg" alt="" /></span><br>
+                <h3><b>FlowChart Symbol</b></h3>
+                <span class="image main"><img src="images/data/Flowchart.png" alt="" /></span><br>
+                <h2><b>IPO OR INPUT PROCESS OUTPUT</b></h2>
+                <p>Computer programs typically perform the following three-step process:</p>
+                <ol>
+                    <li>Input is received.</li>
+                    <li>Some process is performed on the input.</li>
+                    <li>Outputis produced.</li>
+                </ol>
+                <span class="image main"><img src="images/data/ipo.jfif" alt="" /></span><br>
+                <h2><b>VARIABLES</b></h2>
+                <p>Variable are: Storage location that have a name, Name-valuepairs</p>
+                <span class="image img"><img src="images/data/var.png" alt="" /></span><br>
+                <h3><b>Valid Variable Names</b></h3>
+                <ol>
+                    <li>Case sensitive.</li>
+                    <li>Must start with a letter.</li>
+                    <li>Underscores allowed in variable names.</li>
+                    <li>Not allowed: + -</li>
+                </ol>
+                <h2><b>Reserved Words</b></h2>
+                <span class="image img"><img src="images/data/reservedword.jfif" alt="" /></span><br>
+                <h2><b>Reserved incorrect</b></h2>
+                <span class="image img"><img src="images/data/varE.png" alt="" /></span><br>
+                <h2><b>Data types</b></h2>
+                <p>
+                <div><span class="tab">
+                        Basic Data Types :
+                    </span></div>
+                <div>
+                    <span class="tab"></span>
+                    <span class="tab"></span>
+                    1. Numeric :
+                </div>
+                <div>
+                    <span class="tab"></span>
+                    <span class="tab"></span>
+                    <span class="tab"></span>
+                    1.1 Integer
+                </div>
+                <div>
+                    <span class="tab"></span>
+                    <span class="tab"></span>
+                    <span class="tab"></span>
+                    1.2 Floating point
+                </div>
+                <div>
+                    <span class="tab"></span>
+                    <span class="tab"></span>
+                    2. Boolean
+                </div>
+                <div>
+                    <span class="tab"></span>
+                    <span class="tab"></span>
+                    3. String
+                </div>
+                <div><span class="tab">
+                        Composite Data Types :
+                    </span></div>
+                <div>
+                    <span class="tab"></span>
+                    <span class="tab"></span>
+                    1. List
+                </div>
+                <div>
+                    <span class="tab"></span>
+                    <span class="tab"></span>
+                    2. Tuple
+                </div>
+                <div>
+                    <span class="tab"></span>
+                    <span class="tab"></span>
+                    3. Dictionary
+                </div>
+                <div>
+                    <span class="tab"></span>
+                    <span class="tab"></span>
+                    4. Set
+                </div>
+                </p>
+                <h2><b>Number</h2></b>
+                <p>Use the numbers in your source code and don’t use Quotation marks
+                    <br />- Use integers or numbers without decimals
+                <h3 style="text-align: center;">Example (Number)</h3>
+                <div class="text">
+                    <div><span class="tab"></span>
+                        integer = 42
+                    </div>
+                    <div><span class="tab"></span>
+                        float = 4.2
+                    </div>
+                    <div><span class="tab"></span>
+                        a = b = c = d = 0.0
+                    </div>
+                </div>
+                </p>
+                <h2><b>Boolean</b></h2>
+                <p>Boolean can use one of two variables: True or False
+                <h3 style="text-align: center;">Example (Boolean)</h3>
+                <div class="text">
+                    <div><span class="tab"></span>
+                        hungry = True
+                    </div>
+                    <div><span class="tab"></span>
+                        sleepy = False
+                    </div>
+                </div>
+                <p>
+                <h3 style="text-align: center;">Example (Boolean)</h3>
+                <div class="text">
+                    <div><span class="tab"></span>
+                        t = True
+                    </div>
+                    <div><span class="tab"></span>
+                        type(f)
+                    </div>
+                </div>
+                <span class="tab"></span>= bool
+                <h3 style="text-align: center;">Example (Boolean)</h3>
+                <div class="text">
+                    <div><span class="tab"></span>
+                        f = Fasle
+                    </div>
+                    <div><span class="tab"></span>
+                        type(f)
+                    </div>
+                    <div><span class="tab"></span>
+                        print(f)
+                    </div>
+                </div>
+                <span class="tab"></span>= False
+                </p>
+                </p>
+                <h2><b>String</b></h2>
+                <p>Used for data values that are made up of ordered sequences of characters
+                <h3 style="text-align: center;">Example (String)</h3>
+                <div class="text">
+                    <div><span class="tab"></span>
+                        fruit = 'apple'
+                    </div>
+                    <div><span class="tab"></span>
+                        fruit = "apple"
+                    </div>
+                    <div><span class="tab"></span>
+                        string1, string2, string3, = '', 'Knife', 'Hammer Dance'
+                    </div>
+                </div>
+                <p>How to use Quotation marks in String
+                <h3 style="text-align: center;">Example (String)</h3>
+                <div class="text">
+                    <div><span class="tab"></span>
+                        sentence = 'She said, "That is a great tasting apple!"'
+                    </div>
+                    <div><span class="tab"></span>
+                        sentence = "That's a great tasting apple!"
+                    </div>
+                    <div><span class="tab"></span>
+                        double = "She said, \"That's a great tasting apple!\""
+                    </div>
+                    <div><span class="tab"></span>
+                        sentence = 'She said, "That\'s a great tasting apple!"'
+                    </div>
+                </div>
+                </p>
+                </p>
+                <h2><b>Operators</b></h2>
+                <p><span class="tab"></span>Operators is a group of markers or symbols used to perform a function but it
+                    differs in using. In Python, different types of operators support the programming, for example, the
+                    + is a mathematical operator used for adding numbers together or the > is an operator to compare two
+                    data.
+                <h2 style="text-align: center;">Arithmetic Operators</h2>
+                <span class="image main"><img src="images/data/operator2.jfif" alt="" /></span><br>
+                <h3 style="text-align: center;">Example (Arithmetic Operators)</h3>
+                <div class="text">
+                    <div><span class="tab"></span>
+                        x = 15
+                    </div>
+                    <div><span class="tab"></span>
+                        y = 4
+                    </div>
+                    <div><span class="tab"></span>
+                        print('x + y =' ,x+y) ---> x + y = 19
+                    </div>
+                    <div><span class="tab"></span>
+                        print('x - y =' ,x-y) ---> x - y = 11
+                    </div>
+                    <div><span class="tab"></span>
+                        print('x * y =' ,x*y) ---> x * y = 60
+                    </div>
+                    <div><span class="tab"></span>
+                        print('x / y =' ,x/y) ---> x / y = 3.75
+                    </div>
+                    <div><span class="tab"></span>
+                        print('x % y =' ,x%y) ---> x % y = 3
+                    </div>
+                    <div><span class="tab"></span>
+                        print('x // y =' ,x//y) ---> x // y = 3
+                    </div>
+                    <div><span class="tab"></span>
+                        print('x ** y =' ,x**y) ---> x ** y = 50625
+                    </div>
+                </div>
+                <h2 style="text-align: center;">Comparison Operators</h2>
+                <table class="table-danger">
+                    <tbody>
+                        <tr>
+                            <th>Operators</th>
+                            <th>Meaning</th>
+                            <th>Example</th>
+                        </tr>
+                        <tr>
+                            <td>></td>
+                            <td>Greater that-True if left operand is greater than the right</td>
+                            <td>x>y</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                << /td>
+                            <td>Less that-True if left operand is less than the right</td>
+                            <td>x<y< /td>
+                        </tr>
+                        <tr>
+                            <td>==</td>
+                            <td>Equal to-True if both operands are equal</td>
+                            <td>x==y</td>
+                        </tr>
+                        <tr>
+                            <td>!=</td>
+                            <td>Not equal to-True if operands are not equal</td>
+                            <td>x!=y</td>
+                        </tr>
+                        <tr>
+                            <td>>=</td>
+                            <td>Greater than or equal to-True if left operand is greater than or equal to the right</td>
+                            <td>x>=y (remainder of x/y)</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <=< /td>
+                            <td>Less than or equal to-True if left operand is less than or equal to the right</td>
+                            <td>x<=y< /td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h3 style="text-align: center;">Example (Comparison Operators)</h3>
+                <div class="text">
+                    <div><span class="tab"></span>
+                        x = 5
+                    </div>
+                    <div><span class="tab"></span>
+                        y = 10
+                    </div>
+                    <div><span class="tab"></span>
+                        print('x > y is',x>y) ---> x > y is False
+                    </div>
+                    <div><span class="tab"></span>
+                        print('x < y is',x<y) ---> x < y is True </div>
+                                <div><span class="tab"></span>
+                                    print('x == y is',x>y) ---> x == y is False
+                                </div>
+                                <div><span class="tab"></span>
+                                    print('x != y is',x>y) ---> x != y is True
+                                </div>
+                                <div><span class="tab"></span>
+                                    print('x >= y is',x>y) --->x >= y is False
+                                </div>
+                                <div><span class="tab"></span>
+                                    print('x <= y is',x>y) ---> x <= y is True </div>
+                                </div>
+                                <h2 style="text-align: center;">logical Operators</h2>
+                                <table class="table-danger">
+                                    <tbody>
+                                        <tr>
+                                            <th>Operators</th>
+                                            <th>Meaning</th>
+                                            <th>Example</th>
+                                        </tr>
+                                        <tr>
+                                            <td>AND</td>
+                                            <td>True if both the operands are true</td>
+                                            <td>x and y</td>
+                                        </tr>
+                                        <tr>
+                                            <td>OR</td>
+                                            <td>True if either of the operands is True</td>
+                                            <td>x or y<y< /td>
+                                        </tr>
+                                        <tr>
+                                            <td>NOT</td>
+                                            <td>True if operands is false(complements the operand)</td>
+                                            <td>not x</td>
+                                    </tbody>
+                                </table>
+                                <h3 style="text-align: center;">Example (logical Operators)</h3>
+                                <div class="text">
+                                    <div><span class="tab"></span>
+                                        x = True
+                                    </div>
+                                    <div><span class="tab"></span>
+                                        y = False
+                                    </div>
+                                    <div><span class="tab"></span>
+                                        print('x and y is',x and y) ---> x and y is False
+                                    </div>
+                                    <div><span class="tab"></span>
+                                        print('x or y is',x or y) ---> x or y is True
+                                    </div>
+                                    <div><span class="tab"></span>
+                                        print('x not y is',x not y) --->not x is False
+                                    </div>
+                                </div>
+                                <h2 style="text-align: center;">Bitwise Operators</h2>
+                                <p style="text-align: center;">In the table below:Let x = 10 (0000 1010 in binary) and y
+                                    = 4 (0000 0100 in binary)</p>
+
+                                <table class="table-danger">
+                                    <tbody>
+                                        <tr>
+                                            <th>Operators</th>
+                                            <th>Meaning</th>
+                                            <th>Example</th>
+                                        </tr>
+                                        <tr>
+                                            <td>&</td>
+                                            <td>Bitwise AND</td>
+                                            <td>x & y = 0 (0000 0000)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>|</td>
+                                            <td>Bitwise OR</td>
+                                            <td>x | y = 14 (0000 1110)<y< /td>
+                                        </tr>
+                                        <tr>
+                                            <td>~</td>
+                                            <td>Bitwise NOT</td>
+                                            <td>~x = -11 (1111 0101)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>^</td>
+                                            <td>Bitwise XOR</td>
+                                            <td>x ^ y = 14 (0000 1110)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>>></td>
+                                            <td>Bitwise right shift</td>
+                                            <td>x >> 2 = 2 (0000 0010)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <<< /td>
+                                            <td>Bitwise left shift</td>
+                                            <td>x << 2=40 (0010 1000)</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+
+                                <h2 style="text-align: center;">Indentity Operators</h2>
+                                <table class="table-danger">
+                                    <tbody>
+                                        <tr>
+                                            <th>Operators</th>
+                                            <th>Meaning</th>
+                                            <th>Example</th>
+                                        </tr>
+                                        <tr>
+                                            <td>IS</td>
+                                            <td>True if the operands are identical (refer to the same object)</td>
+                                            <td>x is True</td>
+                                        </tr>
+                                        <tr>
+                                            <td>IS NOT</td>
+                                            <td>True if the operands are not identical (do not refer to the same object)
+                                            </td>
+                                            <td>x is not True<y< /td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <h3 style="text-align: center;">Example (Indentity Operators)</h3>
+                                <div class="text">
+                                    <div><span class="tab"></span>
+                                        x1 = 5
+                                    </div>
+                                    <div><span class="tab"></span>
+                                        y1 = 5
+                                    </div>
+                                    <div><span class="tab"></span>
+                                        x2 = 'Hello'
+                                    </div>
+                                    <div><span class="tab"></span>
+                                        y2 = 'Hello'
+                                    </div>
+                                    <div><span class="tab"></span>
+                                        x3 = [1,2,3]
+                                    </div>
+                                    <div><span class="tab"></span>
+                                        y3 = [1,2,3]]
+                                    </div>
+                                    <div><span class="tab"></span>
+                                        print(x1 is not y1) ---> False
+                                    </div>
+                                    <div><span class="tab"></span>
+                                        print(x2 is y2) ---> True
+                                    </div>
+                                    <div><span class="tab"></span>
+                                        print(x3 is y3) ---> False
+                                    </div>
+                                </div>
+                                <h2 style="text-align: center;">Membership Operators</h2>
+                                <table class="table-danger">
+                                    <tbody>
+                                        <tr>
+                                            <th>Operators</th>
+                                            <th>Meaning</th>
+                                            <th>Example</th>
+                                        </tr>
+                                        <tr>
+                                            <td>IN</td>
+                                            <td>True if value/variable is found in the sequence</td>
+                                            <td>5 in x</td>
+                                        </tr>
+                                        <tr>
+                                            <td>NOT IN</td>
+                                            <td>True if value/variable is not found in the sequence</td>
+                                            <td>5 not in x<y< /td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <h3 style="text-align: center;">Example (Membership Operators)</h3>
+                                <div class="text">
+                                    <div><span class="tab"></span>
+                                        x = 'Hello world'
+                                    </div>
+                                    <div><span class="tab"></span>
+                                        y = {1 : 'a' , 2 : 'b'}
+                                    </div>
+                                    <div><span class="tab"></span>
+                                        print('H' in x) ---> True
+                                    </div>
+                                    <div><span class="tab"></span>
+                                        print('Hello' not in x) ---> True
+                                    </div>
+                                    <div><span class="tab"></span>
+                                        print(1 in y) ---> True
+                                    </div>
+                                    <div><span class="tab"></span>
+                                        print('a' in y) ---> False
+                                    </div>
+                                </div>
+                                </p>
+                                <h2><b>Input</b></h2>
+                                <p><span class="tab"></span>The input function in Python reads the input from the
+                                    excerpt information when someone types, then
+                                    returns the information to a string. The general form of this is variable =
+                                    input(prompt)
+                                <h3 style="text-align: center;">Example (Input)</h3>
+                                <div style="text-align: center;">
+                                </div>
+                                <div class="text">
+                                    <div><span class="tab"></span>
+                                        first_name = input('Enter your first name: ')
+                                    </div>
+                                    <div><span class="tab"></span>
+                                        last_name = input('Enter your last name: ')
+                                    </div>
+                                    <div><span class="tab"></span>
+                                        print('Hello', first_name, last_name)
+                                    </div>
+                                </div>
+                                <h3 style="text-align: center;">Resultant (Input)</h3>
+                                <div style="text-align: center;">
+                                </div>
+                                <div class="text">
+                                    <div><span class="tab"></span>
+                                        Enter your first name : Kainapat
+                                    </div>
+                                    <div><span class="tab"></span>
+                                        Enter your last name : Suwannachote
+                                    </div>
+                                    <div><span class="tab"></span>
+                                        Hello Kainapat Suwannachote
+                                    </div>
+                                </div>
+                                <div style="text-align: center;">
+                                    <br />Use int and float by input
+                                </div>
+                                <div class="text">
+                                    <div><span class="tab"></span>
+                                        hours = input('Enter hours: ')
+                                    </div>
+                                    <div><span class="tab"></span>
+                                        int_hours = int(hours)
+                                    </div>
+                                    <div><span class="tab"></span>
+                                        float_hours = float(hours)
+                                    </div>
+                                </div>
+                                <div style="text-align: center;">
+                                    <br />Or
+                                </div>
+                                <div class="text">
+                                    <div><span class="tab"></span>
+                                        int_hours = int(input('Enter hours: '))
+                                    </div>
+                                    <div><span class="tab"></span>
+                                        float_hours = float(input('Enter hours: '))
+                                    </div>
+                                </div>
+                                <div style="text-align: center;">
+                                    <br />Put more than 1 data in 1 input
+                                </div>
+                                <div class="text">
+                                    <div><span class="tab"></span>
+                                        a, b, c = input("Enter 3 strings: ").split()
+                                    </div>
+                                    <div><span class="tab"></span>
+                                        print(c, b, a)
+                                    </div>
+                                </div>
+                                <h3 style="text-align: center;">Resultant</h3>
+                                <div style="text-align: center;">
+                                </div>
+                                <div class="text">
+                                    <div><span class="tab"></span>
+                                        Enter 3 strings: fish eat cat
+                                    </div>
+                                    <div><span class="tab"></span>
+                                        cat eat fish
+                                    </div>
+                                </div>
+                                </p>
+                                <h2><b>Comments</b></h2>
+                                <p><span class="tab"></span>Record description of document, line, or part of a program
+                                <div class="text">
+                                    <div><span class="tab"></span>
+                                        #This is single line comments begin with #
+                                    </div>
+                                    <div><span class="tab"></span>
+                                        """
+                                    </div>
+                                    <div><span class="tab"></span>
+                                        This is multi-line comments
+                                    </div>
+                                    <div><span class="tab"></span>
+                                        are enclosed in
+                                    </div>
+                                    <div><span class="tab"></span>
+                                        triple quotes
+                                    </div>
+                                    <div><span class="tab"></span>
+                                        """
+                                    </div>
+                                </div>
+                                </p>
+                                <div style="display: flex;flex-direction: row;justify-content: space-between;">
+                                    <a href="index.html" class="button">Home</a>
+                                    <a href="Selection if-elif-else.html" class="button">Selection if-elif-else</a>
+                                </div>
+            </section>
+
+        </div>
+
+        <!-- Footer -->
+        <footer id="footer">
+        </footer>
+
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
+<style>
+    .tab {
+        display: inline-block;
+        margin-left: 40px;
+    }
+
+    .text {
+        background-color: rgb(78, 161, 238);
+        color: white;
+        border: 5px solid rgb(0, 4, 255);
+        border-radius: 30px;
+        margin: 30px;
+        padding: 30px;
+    }
+</style>
