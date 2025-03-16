@@ -1,4 +1,4 @@
-# Python Tutorial Website by Kayanapat
+# Python Tutorial Website by Kainapat
 
 เว็บไซต์สอนภาษา Python พื้นฐาน สำหรับผู้เริ่มต้น
 
